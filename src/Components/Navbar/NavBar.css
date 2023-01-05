@@ -1,0 +1,42 @@
+.Main {
+  background-color: black;
+  color: white;
+}
+.Logo {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.Logo:hover {
+  color: red;
+}
+.navlink {
+  text-decoration: none;
+  color: #a9a2a2;
+  transition: all 0.3s ease-in-out;
+}
+.navlink:hover {
+  color: #c7c8c9;
+}
+.navbar{
+position: absolute;
+top: 0;
+left: 0;
+
+width: 100%;
+background-color:transparent;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+}
+
+.Logo-image {
+margin-left: 15px;
+  height: 40px;
+ 
+   /* mix-blend-mode: color-burn;  */
+}
+.avathar-image {
+  margin-right: 15px;
+  height: 30px;
+}
