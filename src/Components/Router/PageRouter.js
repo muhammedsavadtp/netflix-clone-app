@@ -6,13 +6,18 @@ import NavBar from "../Navbar/NavBar";
 import About from "../Pages/About";
 import Banner from "../Banner/Banner";
 import RowPost from "../RowPost/RowPost";
+import { originals, action,comedy,romance,horror } from '../../Urls'
 
 const PageRouter = () => {
   return (
     <>
       <NavBar/>
       <Banner/>
-      <RowPost/>
+      <RowPost Url={originals} title='Netflix orginals'  />
+      <RowPost Url={action} title='Action' isSmall  />
+      <RowPost Url={comedy} title='Comedy' isSmall  />
+      <RowPost Url={horror} title='Horror' isSmall  />
+      <RowPost Url={romance} title='Romance' isSmall  />
       <Routes>
         <Route path="Home" element={<Home/>} />
         <Route index element={<Home />} />

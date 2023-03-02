@@ -1,26 +1,68 @@
-.row{
-   width: 100%;
-   padding-left: 20px;
-    color: white;
-    background-color: yellow;
-    margin-top: 11px;
+.container {
+  max-width: 500rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: transparent;
+  padding: 10px;
 }
-.row h2{
-    font-weight: 600;
+.container h2 {
+  width: 100%;
+  font-weight: 600;
 }
-.posters{
-    display: flex;
-    padding: 20px;
-    overflow-x: scroll;
-    overflow-y: hidden;
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: transparent;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-left: 3%;
+  cursor: pointer;
+}
+.image-box {
+  display: flex;
+  padding: 4px;
+  height: 11rem;
+  background-color: transparent;
+  overflow: hidden;
+}
+.smallPoster {
+  display: flex;
+  padding: 4px;
+  height: 6rem;
+  background-color: transparent;
+  overflow: hidden;
+  /* cursor: pointer; */
+}
+.image-box img {
+  height: 10rem;
+}
+/* .card-container::-webkit-scrollbar{
+  display: none;} */
 
-    -webkit-overflow-scrolling: touch;
-  
+.youtube-container{
+  background-color: transparent;
+  width: 100%;
 }
-/* .posters::-webkit-scrollbar{
-  display: none;
-} */
-.poster{
-    max-height: 250px;
-    margin-right: 10px;
+.card-container::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgb(0, 0, 0);
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background-color: rgb(48, 46, 46);
+  border-radius: 10px;
+}
+.image-box:hover{
+
+  transform: scale(1.1);
+}
+.smallPoster:hover{
+  transform: scale(1.1);
+
 }

@@ -18,23 +18,23 @@
 .navlink:hover {
   color: #c7c8c9;
 }
-.navbar{
-position: absolute;
-top: 0;
-left: 0;
-
-width: 100%;
-background-color:transparent;
-padding: 10px;
-display: flex;
-justify-content: space-between;
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
 }
 
 .Logo-image {
-margin-left: 15px;
+  margin-left: 15px;
   height: 40px;
- 
-   /* mix-blend-mode: color-burn;  */
+
+  /* mix-blend-mode: color-burn;  */
 }
 .avathar-image {
   margin-right: 15px;
